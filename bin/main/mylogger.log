@@ -1,0 +1,53 @@
+09-12-2021 09:03:21 - INFO  com.capg.hollywood.HollywoodMoviesApplication : No active profile set, falling back to default profiles: default
+09-12-2021 09:03:22 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-12-2021 09:03:22 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+09-12-2021 09:03:22 - INFO  org.springframework.cloud.context.scope.GenericScope : BeanFactory id=6a79b19b-1233-3f93-9581-79ca25b96e18
+09-12-2021 09:03:23 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+09-12-2021 09:03:23 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+09-12-2021 09:03:23 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.55]
+09-12-2021 09:03:23 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+09-12-2021 09:03:23 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1499 ms
+09-12-2021 09:03:23 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+09-12-2021 09:03:23 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+09-12-2021 09:03:23 - INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+09-12-2021 09:03:23 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+09-12-2021 09:03:24 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.6.1.Final
+09-12-2021 09:03:24 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09-12-2021 09:03:24 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+09-12-2021 09:03:25 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-12-2021 09:03:25 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-12-2021 09:03:25 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-12-2021 09:03:26 - INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver : Exposing 16 endpoint(s) beneath base path '/actuator'
+09-12-2021 09:03:26 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+09-12-2021 09:03:26 - INFO  com.capg.hollywood.HollywoodMoviesApplication : Started HollywoodMoviesApplication in 6.668 seconds (JVM running for 7.363)
+09-12-2021 09:03:27 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-12-2021 09:03:27 - INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+09-12-2021 09:03:27 - INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : AddMovie Controller is intiated
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : adding movie is intialized
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : adding movie is terminated
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : Mapper from movieToMovieDto is intialized
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : Mapper from movieToMovieDto is terminated
+09-12-2021 09:07:48 - INFO  com.capg.hollywood.utils.MovieUtils : AddMovie Controller is terminated
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : AddMovie Controller is intiated
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : adding movie is intialized
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : adding movie is terminated
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : Mapper from movieToMovieDto is intialized
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : Mapper from movieToMovieDto is terminated
+09-12-2021 09:08:07 - INFO  com.capg.hollywood.utils.MovieUtils : AddMovie Controller is terminated
+09-12-2021 10:35:18 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+09-12-2021 10:35:18 - INFO  org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+09-12-2021 10:35:18 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Destroying Spring FrameworkServlet 'dispatcherServlet'
+09-12-2021 10:35:18 - WARN  org.apache.catalina.loader.WebappClassLoaderBase : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17/java.lang.Thread.run(Thread.java:833)
+09-12-2021 10:35:18 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+09-12-2021 10:35:18 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+09-12-2021 10:35:18 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
